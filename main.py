@@ -43,7 +43,6 @@ sns.heatmap(cm, annot=True, fmt="d", cmap='Blues',
 plt.ylabel('Actual')
 plt.xlabel('Predicted')
 plt.title('Confusion Matrix')
-plt.savefig("confusion_matrix.png")  # Сохраняем в файл
 plt.show()
 
 # 7. Подробный отчёт
